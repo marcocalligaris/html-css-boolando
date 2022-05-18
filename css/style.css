@@ -4,6 +4,53 @@
     padding: 0;
 }
 
-/* body{
-    padding-top: 100px;
-} */
+/* Colori */
+/* Header: orange #FF6900
+Footer:  blu #1A1A1A */
+
+body{
+    color: white;
+    font-family: sans-serif;
+    /* padding-top: 100px; */
+}
+
+header{
+    height: 100px;
+    background-color: #FF6900;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    border: 2px dashed blueviolet;
+    text-align: center;
+}
+
+header > .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li{
+    margin: 10px;
+    /* font-size: 21px; */
+    font-weight: bold;
+}
+
+#logo{
+    border: 2px dashed blue;
+    width: 180px;
+    display: block;
+}
+
+#menu-right, #navbar{
+    font-size: 21px;
+}
