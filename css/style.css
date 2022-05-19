@@ -27,7 +27,6 @@ header{
 .container{
     max-width: 1800px;
     margin: auto;
-    border: 2px dashed blueviolet;
     text-align: center;
 }
 
@@ -47,8 +46,12 @@ header > .container{
 
 #navbar li{
     margin: 10px;
-    /* font-size: 21px; */
     font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 #logo{
@@ -70,8 +73,8 @@ main > .container{
 }
 
 .item{
-    border: 2px dashed orangered;
     width: 30%;
+    cursor: pointer;
 }
 .item, .item-img{
     position: relative;
@@ -88,6 +91,7 @@ img{
 .item-details{
     color: black;
     text-align: left;
+    margin-bottom: 80px;
 }
 
 .item-details p{
@@ -131,4 +135,20 @@ img{
     position: absolute;
     right: 0;
     top: 20px;
+}
+
+.favourite:hover{
+    color: red;
+}
+
+.item-img#img1:hover{
+    content: url("../img/1b.webp");
+}
+
+.item-img#img2:hover{
+    content: url("../img/2b.webp");
+}
+
+.item-img#img3:hover{
+    content: url("../img/3b.webp");
 }
