@@ -38,14 +38,14 @@ header > .container{
     margin: 0 auto
 }
 
-#navbar ul{
+ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-#navbar li{
-    margin: 10px;
+li{
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -151,4 +151,37 @@ img{
 
 .item-img#img3:hover{
     content: url("../img/3b.webp");
+}
+
+footer{
+    height: 150px;
+    background-color: #1A1A1A;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: ; */
+}
+
+footer > .container{
+    text-align: left;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-btm-l#menu-btm-r{
+    /* text-align: left; */
+    width: 300px;
+}
+
+#company#social-media{
+font-weight: bold;
+}
+
+#menu-btm-r{
+    font-size: 25px;
+}
+
+#social-media{
+    margin-bottom: 10px;
 }
