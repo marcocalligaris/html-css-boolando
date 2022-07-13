@@ -22,6 +22,7 @@ header{
     left: 0;
     right: 0;
     box-shadow: 0px 0px 5px black;
+    z-index: 1;
 }
 
 .container{
@@ -84,6 +85,14 @@ main > .container{
     width: 100%;
 }
 
+.item-img .main-image, .item-img:hover .secondary-image{
+    display: block;
+}
+
+.item-img .secondary-image, .item-img:hover, .main-image{
+    display: none;
+}
+
 img{
     width: 100%;
 }
@@ -138,6 +147,7 @@ img{
 }
 
 .favourite:hover{
+    content: '';
     color: red;
 }
 
